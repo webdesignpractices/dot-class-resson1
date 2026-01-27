@@ -9,7 +9,7 @@ class Score {
         $this->points=$points;
     }
 
-    Protected function getResult(){ //子クラスでアクセスできるように
+    protected function getResult(){ //子クラスでアクセスできるように
         return $this->points>=80? 'Pass':'Fail';
     }
     public function getInfo(){
